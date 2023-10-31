@@ -39,6 +39,7 @@ const generateSVG = (userInput) => {
   draw.text(userInput.text).move(125, 90).font({ fill: userInput.textColor });
 
   draw.save('logo.svg');
+  //fs.writeFileSync('().svg', draw.svg());
   console.log('Generated logo.svg');
 };
 
