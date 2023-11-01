@@ -1,9 +1,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const SVG = require('./shapes.js')
-//const circle = require('./shapes.js');
-//const triangle = require('./shapes.js');
-//const square = require('./shapes.js');
+const circle = require('./shapes.js');
+const triangle = require('./shapes.js');
+const square = require('./shapes.js');
 
 
 const promptUser = async () => {
