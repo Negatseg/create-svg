@@ -319,6 +319,7 @@ console.log(svgDocument.toSVG());
  module.exports = Circle;
  module.exports = Triangle;
  module.exports = Square;
+ module.exports = Shape;
 
  module.exports = SVG;
 
